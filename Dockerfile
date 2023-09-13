@@ -1,5 +1,5 @@
 
-FROM jupyter/pyspark-notebook:latest
+FROM jupyter/pyspark-notebook:notebook-7.0.2
 
 COPY requirements.txt .
 
